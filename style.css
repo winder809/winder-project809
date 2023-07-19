@@ -1,69 +1,73 @@
-/* style.css */
-
-/* Global Styles */
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  /* Header Styles */
-  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Header Styles */
+header {
+    grid-column: 1 / -1;
     text-align: center;
     padding: 20px;
-  }
-  
-  h1.uppercase {
+}
+
+h1.uppercase {
     text-transform: uppercase;
     font-size: 28px;
-  }
-  
-  /* Main Styles */
-  main {
+}
+
+/* Main Styles */
+main {
+    grid-column: 1 / -1;
     padding: 20px;
-  }
-  
-  /* Result Container Styles */
-  #resultContainer {
+}
+
+/* Result Container Styles */
+#resultContainer {
     margin-top: 20px;
-  }
-  
-  /* Error Container Styles */
-  #errorContainer {
+}
+
+/* Error Container Styles */
+#errorContainer {
     margin-top: 20px;
     color: red;
-  }
-  
-  /* Link Styles */
-  a {
+}
+
+/* Link Styles */
+a {
     color: blue;
     text-decoration: none;
-  }
-  
-  /* Image Styles */
-  img {
+}
+
+/* Image Styles */
+img {
     display: block;
     margin: 20px auto;
     max-width: 100%;
     height: auto;
-  }
-  
-  /* Paragraph Styles */
-  p {
+}
+
+/* Paragraph Styles */
+p {
     text-align: center;
-  }
-  
-  /* Input Styles */
-  input[type="text"],
-  input[type="number"] {
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="number"] {
     display: block;
     margin: 10px auto;
     padding: 5px;
     width: 200px;
-  }
-  
-  /* Button Styles */
-  button {
+}
+
+/* Button Styles */
+button {
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
@@ -71,9 +75,8 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #0056b3;
-  }
-  
+}

@@ -1,83 +1,105 @@
-/* style-22.css */
-
-/* Global Styles */
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  /* Header Styles */
-  header {
-    background-color: #007bff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    grid-column: 1 / -1;
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  /* Main Heading Styles */
-  h1 {
+}
+
+/* Main Heading Styles */
+h1 {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  /* Paragraph Styles */
-  p {
+    color: #333;
+}
+
+/* Paragraph Styles */
+p {
     text-align: center;
     margin-bottom: 10px;
-  }
-  
-  /* Link Styles */
-  a {
+}
+
+/* Link Styles */
+a {
     color: blue;
     text-decoration: none;
-  }
-  
-  /* Article Styles */
-  article {
+}
+
+/* Article Styles */
+article {
     margin-top: 20px;
-  }
-  
-  /* Article Heading Styles */
-  article h2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Article Heading Styles */
+article h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  /* Article List Styles */
-  article ul {
+    color: #007bff;
+}
+
+/* Article List Styles */
+article ul {
     padding-left: 20px;
-  }
-  
-  /* Aside Styles */
-  aside {
+}
+
+/* Aside Styles */
+aside {
     margin-top: 20px;
-  }
-  
-  /* Aside Heading Styles */
-  aside h2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside Heading Styles */
+aside h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  /* Aside List Styles */
-  aside ul {
+    color: #007bff;
+}
+
+/* Aside List Styles */
+aside ul {
     padding-left: 20px;
-  }
-  
-  /* Div Styles */
-  div {
+}
+
+/* Div Styles */
+div {
     margin-top: 20px;
-  }
-  
-  /* Div Heading Styles */
-  div h2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Div Heading Styles */
+div h2 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  /* Div List Styles */
-  div ul {
+    color: #007bff;
+}
+
+/* Div List Styles */
+div ul {
     padding-left: 20px;
-  }
-  
+}
